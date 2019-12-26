@@ -33,6 +33,7 @@ lib/com.qualcomm.qti.ant@1.0.so
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib/extractors/libmmparser.so
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 lib/lib-imscamera.so
 lib/lib-imsvideocodec.so
 lib/lib-imsvtextutils.so
@@ -41,8 +42,8 @@ lib/libFileMux.so
 lib/libOmxMux.so
 -lib/libantradio.so
 lib/libdiag_system.so
-lib/libimscamera_jni.so
-lib/libimsmedia_jni.so
+product/lib/libimscamera_jni.so
+product/lib/libimsmedia_jni.so
 lib/libmmosal.so
 lib/libmmparser_lite.so
 lib/libmmrtpdecoder.so
@@ -121,7 +122,7 @@ lib64/vendor.qti.imsrtpservice@1.0.so
 -vendor/app/QtiTelephonyService/QtiTelephonyService.apk
 -vendor/app/TimeService/TimeService/TimeService.apk
 -vendor/app/TimeService/TimeService.apk
--vendor/app/ims/ims.apk
+-product/vendor/app/ims/ims.apk
 -vendor/app/imssettings/imssettings.apk
 -vendor/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
