@@ -344,7 +344,12 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libxml2 \
     ims-ext-common \
-    telephony-ext
+    telephony-ext \
+    ims-ext-common_system
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext \
+    ims-ext-common_system
 
 # RRO
 PRODUCT_ENFORCE_RRO_TARGETS := \
