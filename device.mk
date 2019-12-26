@@ -293,7 +293,8 @@ PRODUCT_COPY_FILES += \
 
 # Power packages
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
+    android.hardware.power@1.2-service-qti \
+    android.hardware.power.stats@1.0-service.mock
 
 # Power configuration
 PRODUCT_COPY_FILES += \
