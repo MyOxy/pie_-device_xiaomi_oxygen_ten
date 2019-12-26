@@ -251,6 +251,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
  persist.radio.VT_HYBRID_ENABLE=1 \
  persist.volte_enabled_by_hw=1
 
+# VoLTE hax
+PRODUCT_PROPERTY_OVERRIDES += \
+   persist.dbg.volte_avail_ovr=1 \
+   persist.dbg.vt_avail_ovr=1
+
 # Optimize
  PRODUCT_PROPERTY_OVERRIDES += \
      sys.use_fifo_ui=1
