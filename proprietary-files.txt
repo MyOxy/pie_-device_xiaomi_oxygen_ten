@@ -120,8 +120,7 @@ lib64/vendor.qti.imsrtpservice@1.0.so
 -priv-app/WfdService/WfdService.apk
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/app/QtiTelephonyService/QtiTelephonyService.apk
--vendor/app/TimeService/TimeService/TimeService.apk
--vendor/app/TimeService/TimeService.apk
+-product/vendor/app/TimeService/TimeService.apk
 -product/vendor/app/ims/ims.apk
 -vendor/app/imssettings/imssettings.apk
 -vendor/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
@@ -161,7 +160,7 @@ vendor/bin/rmt_storage
 vendor/bin/sensors.qcom
 vendor/bin/tftp_server
 vendor/bin/thermal-engine
-vendor/bin/time_daemon
+product/vendor/bin/time_daemon
 vendor/bin/wcnss_filter
 vendor/bin/wcnss_service
 vendor/bin/wifidisplayhalservice
@@ -1686,7 +1685,7 @@ vendor/lib/libsmwrapper.so
 vendor/lib/libspl.so
 vendor/lib/libsurround_3mic_proc.so
 -vendor/lib/libthermalclient.so
--vendor/lib/libtime_genoff.so
+-product/vendor/lib/libtime_genoff.so
 vendor/lib/libtinycompress.so
 -vendor/lib/libtinycompress_vendor.so
 vendor/lib/libtinyxml2_1.so
@@ -1949,7 +1948,7 @@ vendor/lib64/libssd.so
 vendor/lib64/libsystem_health_mon.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
--vendor/lib64/libtime_genoff.so
+-product/vendor/lib64/libtime_genoff.so
 -vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libulp2.so
