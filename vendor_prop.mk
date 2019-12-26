@@ -115,7 +115,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
  vendor.gralloc.enable_fb_ubwc=1
  persist.sys.root_access=0 \
  persist.sys.wfd.nohdcp=1 \
- persist.sys.wfd.virtual=0 
+ persist.sys.wfd.virtual=0
 
 # Fp Gestures
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -218,6 +218,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
  service.qti.ims.enabled=1 \
  telephony.lteOnCdmaDevice=1
 
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.protected_contents=true
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
  persist.timed.enable=true
@@ -229,7 +233,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
  persist.sys.usb.config.extra=none
-  
+
 # IMS / VoLTE
 PRODUCT_PROPERTY_OVERRIDES += \
  persist.dbg.volte_avail_ovr=1 \
@@ -239,7 +243,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
  persist.radio.VT_CAM_INTERFACE=2 \
  persist.radio.VT_ENABLE=1 \
  persist.radio.VT_HYBRID_ENABLE=1 \
- persist.volte_enabled_by_hw=1 
+ persist.volte_enabled_by_hw=1
 
 # Optimize
  PRODUCT_PROPERTY_OVERRIDES += \
