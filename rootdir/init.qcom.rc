@@ -622,8 +622,9 @@ on property:init.svc.surfaceflinger=restarting
 
 service vendor.time_daemon /system/vendor/bin/time_daemon
     class main
-    user root
-    group root
+    user system
+    group system
+    capabilities SYS_TIME
     writepid /dev/cpuset/system-background/tasks
 
 service gx_fpd /system/vendor/bin/gx_fpd
