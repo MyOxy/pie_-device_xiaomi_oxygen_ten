@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    tinymix \
     libtinyalsa \
     libaacwrapper
 
