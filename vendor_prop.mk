@@ -257,6 +257,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
  persist.radio.VT_HYBRID_ENABLE=1 \
  persist.volte_enabled_by_hw=1
 
+# IMS debug
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.ims.disableADBLogs=1 \
+persist.vendor.ims.disableDebugLogs=1 \
+persist.vendor.ims.disableIMSLogs=1 \
+persist.vendor.ims.disableQXDMLogs=1
+
 # VoLTE hax
 PRODUCT_PROPERTY_OVERRIDES += \
    persist.dbg.volte_avail_ovr=1 \
