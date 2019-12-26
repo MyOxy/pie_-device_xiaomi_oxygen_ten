@@ -324,6 +324,7 @@ PRODUCT_PACKAGES += \
     init.oxygen.rc \
     init.goodix.sh \
     init.qcom.bt.sh \
+    init.safailnet.rc \
     init.qcom.post_boot.sh
 
 # RCS
