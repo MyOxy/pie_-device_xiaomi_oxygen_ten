@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
-# APN	
+# APN
 DEFAULT_APNS_FILE := $(LOCAL_PATH)/configs/apns-conf.xml
 
 # Audio packages
@@ -447,5 +447,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
 
 # Wi-Fi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
