@@ -71,11 +71,6 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Boot jars
-PRODUCT_BOOT_JARS += \
-    telephony-ext \
-    WfdCommon
-
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
