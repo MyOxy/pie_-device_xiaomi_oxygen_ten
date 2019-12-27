@@ -16,7 +16,7 @@
             <name>IEffectsFactory</name>
             <instance>default</instance>
         </interface>
-</hal>
+    </hal>
     <hal format="hidl">
         <name>com.fingerprints.extension</name>
         <transport>hwbinder</transport>
@@ -68,7 +68,7 @@
              <instance>default</instance>
          </interface>
      </hal>
-    <hal format="hidl">
+     <hal format="hidl">
         <name>android.hardware.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
         <version>2.1</version>
@@ -139,7 +139,7 @@
             <instance>default</instance>
             <instance>gnss_vendor</instance>
         </interface>
-</hal>
+     </hal>
      <hal format="hidl">
         <name>vendor.qti.hardware.data.latency</name>
         <transport>hwbinder</transport>
@@ -193,7 +193,7 @@
             <name>IKeymasterDevice</name>
             <instance>default</instance>
         </interface>
-</hal>
+     </hal>
      <hal format="hidl">
         <name>android.hardware.health</name>
         <transport>hwbinder</transport>
