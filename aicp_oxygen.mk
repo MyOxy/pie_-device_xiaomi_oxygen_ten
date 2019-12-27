@@ -21,18 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oxygen device
 $(call inherit-product, device/xiaomi/oxygen/device.mk)
 
-# Inherit some common aosp  stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
-
-# Gapps config
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
+# Inherit some common AICP-OS stuff.
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Allow Missing Dependencies
-ALLOW_MISSING_DEPENDENCIES := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := oxygen
