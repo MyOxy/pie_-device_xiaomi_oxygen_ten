@@ -20,7 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
-    com.dsi.ant.antradio_library
+    com.dsi.ant.antradio_library \
+    lobantradio
 
 # APN
 DEFAULT_APNS_FILE := $(LOCAL_PATH)/configs/apns-conf.xml
